@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>funcition</title>
+</head>
+<body>
+    <script>
+        //tinggi badan siswa di sekolah
+        let iyem=prompt("masukan tinggi badan");
+        let madun=prompt("masukan tinggi");
+        let sukiman=prompt("masukan tinggi badan");
+
+        //kondisi iyem paling tinggi
+        if(iyem>=madun && iyem>=sukiman){
+            if(madun>=sukiman){document.writeln('${iyem}<br>${madun}<br>${sukiman}')
+        }else if (sukiman>=madun){document.writeln('${madun}<br>${sukiman}<br>${madun}')}
+
+        //kondisi madun paling tinggi
+    }else if(madun>=iyem && madun>=sukiman){
+        if (iyem>=sukiman){document.writeln('${madun}<br>${iyem}<br>${sukiman}')
+    }else if (sukiman>=iyem){document.writeln('${madun}<br>${sukiman<br>${iyem}')}
+
+    //kondisi sukiman paling tinggi
+    }else if(sukiman>=iyem && sukiman>=madun){
+        if (iyem>=madun){document.writeln('${sukiman}<br>${iyem}<br>${madun}')
+    }else if (madun>=iyem){document.writeln('${sukiman}<br>${madun}<br>${iyem}')}
+    }
+
+        
+        
+    </script>
+</body>
+</html>
